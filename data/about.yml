@@ -5,7 +5,7 @@ about:
 
 work:
   title: Why Choose Doge Codes?
-  image: images/collaboration.png
+  image: images/doge_banner.png
   paragraph: If you're eager to enhance your coding skills and navigate the world of technology with confidence, Doge Codes is the right place for you. Join a community of learners and tech enthusiasts who are committed to continuous growth and knowledge sharing.
   heading: How Doge Codes Can Help You Learn and Grow
   item1: Dive into interactive online courses designed to demystify complex coding concepts. Doge Codes offers a clear learning path for beginners and advanced developers alike, ensuring everyone can level up their coding skills.
@@ -13,7 +13,7 @@ work:
 
 projects:
   title: Featured Project - DogeCoin Collector App
-  image: images/doge_banner
+  image: images/doge_banner.png
   paragraph: Check out the DogeCoin Collector app, https://play.google.com/store/apps/details?id=com.adventuregame.dogecoincollector&hl=en_US&gl=US&pli=1 a cool Android game developed by Doge Codes. This fun and interactive game lets you embark on a journey to collect Dogecoins while overcoming challenges and unlocking exciting levels. Available on the Google Play Store, the DogeCoin Collector app showcases Doge Codes' passion for creating innovative and entertaining applications.
 
 testimonials:
