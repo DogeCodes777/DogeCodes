@@ -4,7 +4,7 @@ service:
     - title: Development
       icon: icon fa-vcard-o
       description: |
-        I specialize in developing custom solutions to enhance your company's technology stack. 
+        I specialize in developing custom solutions to enhance your's technology stack. 
         Utilizing the latest and most effective tools, I can help you develop, customize, secure, 
         and automate your products. My goal is to streamline your business processes and provide 
         you with an optimized platform that meets your unique needs. Let me help you take your 
@@ -28,11 +28,9 @@ service:
     - title: Optimize Your Configuration Management
       icon: icon fa-wrench
       description: Get the most out of your development and management tools with our configuration management services. We utilize the latest and greatest tools available and provide training and support to ensure your team is equipped to use them to their full potential. With our expertise, you'll be able to optimize your development and management processes and achieve better results in less time. Let us help you take your configuration management to the next level.
-
     - title: Protect Your Business from Cyber Risks and Privacy Threats
       icon: icon fa-camera
       description: Don't let a cyber incident or privacy breach lead to financial and reputational penalties. Stay prepared with our comprehensive risk and compliance services. We'll help you identify and address potential risks and requirements, ensuring that your business is protected and compliant at all times. With our expertise, you can focus on growing your business with the peace of mind that comes from knowing your data and systems are secure. Let us help you protect your business from cyber risks and privacy threats.
-
     - title: Streamline Your Workflows and Foster Collaboration
       icon: icon fa-users
       description:
@@ -41,11 +39,9 @@ service:
     - title: Cloud Infrastructure Management
       icon: icon fa-cubes
       description: Efficiently manage, enhance, and oversee your cloud infrastructure on platforms like AWS, Azure, and GCP. This includes regular backups, updates, and scaling to ensure your systems are running smoothly and can handle increased traffic and demand.
-
     - title: Restoration and Backup Services
       icon: icon fa-lock
       description: Protect your organization's data with the latest security tools and technologies. We specialize in secure backup, monitoring, and support services for your technology infrastructure. With our expertise, you can rest easy knowing that your valuable data is safe and secure.
-
     - title: Continuous Integration and Delivery
       icon: icon fa-refresh
       description: DevOps requires frequent and incremental changes to code versions, allowing for continuous testing and deployment. With our expertise in DevOps, we can help your team implement a continuous integration and delivery pipeline, ensuring that your applications are always up-to-date and running smoothly.
@@ -58,12 +54,10 @@ service2:
     - title: End-to-End Solutions
       icon: tf-gears
       details: "At every stage of the software development lifecycle, from ideation to deployment and beyond, it's important to consider the big picture. That's why our team takes a holistic approach to software development, taking into account business drivers, product strategy, enterprise architecture, quality assurance, data science, security, and compliance. By engaging across your value streams, we can create a unified purpose and understanding to deliver end-to-end solutions that meet your needs."
-
     # service item loop
     - title: Modern Governance
       icon: tf-ion-pull-request
       details: "Most organizations focus on improving software delivery by optimizing for increased developer productivity and operational efficiency. However, this approach often leaves security and compliance behind due to the accelerated pace and ephemeral nature of cloud resources. To overcome this false choice between exposing the organization to risk or slowing down development, modern governance provides continuously audited and verified policies. By implementing modern governance, organizations can go faster and safer without compromising security and compliance."
-
     # service item loop
     - title: Platforming
       icon: tf-layers
@@ -82,7 +76,6 @@ service2:
         - item: Strategy Deployment
         - item: Technical Leadership
         - item: Mentoring
-
     # service item loop
     - title: Workshops
       icon: tf-ion-ios-copy-outline
@@ -90,7 +83,6 @@ service2:
         - item: Modern Governance
         - item: Platforming Workshop
         - item: Leadership Offsite Workshop
-
     # service item loop
     - title: Advisory
       icon: tf-ion-ios-copy-outline
@@ -136,27 +128,22 @@ service3:
       icon: tf-ion-ios-briefcase-outline
       title: Job Market Insights
       details: Gain valuable insights into the current DevOps job market, including in-demand skills, trends, and best practices for job applications and interviews.
-
     - count: 2
       icon: tf-ion-ios-alarm-outline
       title: Skill Assessment and Development
       details: Receive a comprehensive assessment of your existing skills and a tailored development plan to bridge any knowledge gaps and enhance your proficiency in key DevOps areas.
-
     - count: 3
       icon: tf-ion-ios-email-outline
       title: Tools and Technologies
       details: Explore the essential DevOps tools and technologies, learn how to set up and configure popular DevOps platforms, and gain hands-on experience in building CI/CD pipelines.
-
     - count: 4
       icon: tf-ion-ios-locked-outline
       title: Best Practices and Methodologies
       details: Understand industry-standard DevOps practices, such as infrastructure as code, automated testing, monitoring, and deployment strategies, to ensure efficient and reliable software delivery.
-
     - count: 5
       icon: tf-ion-ios-rocket-outline
       title: Career Guidance and Job Preparation
       details: Receive personalized career guidance, resume review, interview preparation, and valuable tips for positioning yourself as a strong candidate for DevOps engineering roles.
-
     - count: 6
       icon: tf-ion-ios-chatboxes-outline
       title: Ongoing Support and Mentorship

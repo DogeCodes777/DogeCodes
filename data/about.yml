@@ -1,34 +1,36 @@
 about:
-  title: About Me
-  image: images/profile_picture.jpg
-  paragraph: Welcome to my personal website! I am a DevOps Engineer specializing in operational tasks and collaborating with development teams to create efficient software products using CI/CD platforms. I hold a Bachelor's degree in Computer Science Software Engineering from CSUMB (California State University of Monterey Bay). My areas of expertise include DevOps Engineering, Software Engineering, Full Stack Design/Development, Automation Engineering, and Data Analytics. I possess experience with various operating systems such as Mac, Windows, and Linux. With a growth mindset, I am always eager to learn new things. Thriving in diverse environments, I enjoy taking on new challenges. In my work, I utilize a range of technologies, including Docker, Jenkins, Kubernetes, Ansible, Helm, CI/CD Pipelines, SonarQube, Nagios, Configuration Management, Server Operations, and Web Development/Deployment. Additionally, I keep my skills up-to-date by programming in several languages, including Python, C++, C#, JavaScript, and Groovy. My passion lies in creating and enhancing full-stack architectures while prioritizing project security and scalability through automation and machine learning. If you're interested in my work or have a position available, please feel free to contact me. Thank you for visiting my website!
+  title: About Doge Codes
+  image: images/doge_banner.png
+  paragraph: Welcome to the Doge Codes channel! I am Doge, a coding enthusiast on a mission to make learning technology fun and accessible. Join me on this exciting journey into the world of coding and development. Whether you're a beginner or an experienced developer, there's always something new to explore. Subscribe to Doge Codes for engaging tutorials, coding challenges, and valuable insights into the ever-evolving tech landscape. Let's embark on this coding adventure together!
 
 work:
-  title: Why Choose Me?
+  title: Why Choose Doge Codes?
   image: images/collaboration.png
-  paragraph: If you're searching for a talented DevOps Engineer who can help your team thrive in the technology industry, your search ends here! I possess the skills and experience necessary to guide your team, offering a clear roadmap for designing, scaling, operating, and monitoring your technology stack efficiently.
-  heading: How I Can Help Streamline and Advance Your Projects
-  item1: As a DevOps Engineer, I am equipped to drive your project forward by identifying and implementing solutions to automate software testing, debugging, and deployment. In this capacity, I will actively work to minimize operational problems, support application developers in building scalable software, and boost productivity across all software endeavors.
-  item2: My unwavering commitment to implementing successful DevOps practices and techniques will enhance your team's software development lifecycle and generate effective long-term solutions for your organization. With my extensive skills and expertise, I can help your team achieve new heights of success.
+  paragraph: If you're eager to enhance your coding skills and navigate the world of technology with confidence, Doge Codes is the right place for you. Join a community of learners and tech enthusiasts who are committed to continuous growth and knowledge sharing.
+  heading: How Doge Codes Can Help You Learn and Grow
+  item1: Dive into interactive online courses designed to demystify complex coding concepts. Doge Codes offers a clear learning path for beginners and advanced developers alike, ensuring everyone can level up their coding skills.
+  item2: Benefit from Doge's engaging teaching style and real-world examples. Each course is crafted with a focus on practical applications, giving you the skills you need to succeed in the tech industry.
+
+projects:
+  title: Featured Project - DogeCoin Collector App
+  image: images/doge_banner
+  paragraph: Check out the DogeCoin Collector app, https://play.google.com/store/apps/details?id=com.adventuregame.dogecoincollector&hl=en_US&gl=US&pli=1 a cool Android game developed by Doge Codes. This fun and interactive game lets you embark on a journey to collect Dogecoins while overcoming challenges and unlocking exciting levels. Available on the Google Play Store, the DogeCoin Collector app showcases Doge Codes' passion for creating innovative and entertaining applications.
 
 testimonials:
-  title: Client Testimonials
-  subtitle: Don’t take my word for it – here’s what my clients say
+  title: Student Testimonials
+  subtitle: Hear what Doge Codes students have to say
   testi_item:
     # testimonial loop
-    - content: I would like to express my gratitude to Doge for his exceptional service. He has created an automated CI/CD pipeline for our iOS applications at Williams Sonoma. Ryan has been an outstanding partner throughout the entire process, demonstrating flexibility in his code, effective collaboration skills, and an unwavering work ethic.
-      name: Chris Johnson
-      title: DevOps Manager
-      company: Williams Sonoma
+    - content: Doge's courses have been a game-changer for me. The interactive lessons and hands-on projects have made learning coding enjoyable and effective. I highly recommend Doge Codes to anyone looking to advance their coding skills.
+      name: Alex Smith
+      title: Student
 
     # testimonial loop
-    - content: Doge embodies the utmost level of customer service and professionalism... His dedication to communication, adaptability, and commitment to delivering a positive customer experience sets him apart from the competition and showcases his exceptional skills.
-      name: Hunter Jensen
-      title: CEO
-      company: Barefoot Solutions
+    - content: As a self-taught coder, I struggled to find resources that made learning fun. Doge's courses changed that for me. The community aspect and engaging content have made a significant difference in my coding journey.
+      name: Emily Johnson
+      title: Aspiring Developer
 
     # testimonial loop
-    - content: In my experience, Doge has been proactive, responsive, easy to collaborate with, attentive to timelines and schedules, and always willing to go the extra mile to be a valuable business partner. He has consistently demonstrated a strong work ethic and a commitment to excellence, making him the ideal partner we had initially sought.
-      name: Ason Okurwa
-      title: CEO
-      company: Bedrock Services
+    - content: Doge's teaching style is both entertaining and educational. The courses are well-structured, and the real-world examples make it easy to apply what you learn. Doge Codes is a must for anyone serious about coding.
+      name: Ryan Brown
+      title: Coding Enthusiast
