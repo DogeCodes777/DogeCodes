@@ -4,7 +4,7 @@
 <div class="container">
     <div class="background-image"></div>
     <div class="blog-posts">
-        {{ range first 3 $data.product.blog }}
+        {{ range first 3 $data.product.product }}
         <div class="blog-post">
             <h2>{{ .title }}</h2>
             <p>Published on {{ .date }} by {{ .author }}</p>
