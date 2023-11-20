@@ -36,6 +36,6 @@ menus:
   - name: Service
     url: "/service/"
     weight: "11"
-  - name: Blog
-    url: "/blog/"
+  - name: Product
+    url: "/product/"
     weight: "12"
