@@ -23,17 +23,17 @@ testimonials:
     # testimonial loop
     - content: Doge's courses have been a game-changer for me. The interactive lessons and hands-on projects have made learning coding enjoyable and effective. I highly recommend Doge Codes to anyone looking to advance their coding skills.
       name: Alex Smith
-      image: "image/student_1.jpg"
+      image: "images/student_1.png"
       title: Student
 
     # testimonial loop
     - content: As a self-taught coder, I struggled to find resources that made learning fun. Doge's courses changed that for me. The community aspect and engaging content have made a significant difference in my coding journey.
       name: Emily Johnson
-      image: "image/student_2.jpg"
+      image: "images/student_2.png"
       title: Aspiring Developer
 
     # testimonial loop
     - content: Doge's teaching style is both entertaining and educational. The courses are well-structured, and the real-world examples make it easy to apply what you learn. Doge Codes is a must for anyone serious about coding.
       name: Ryan Brown
-      image: "image/student_3.jpg"
+      image: "images/student_3.png"
       title: Coding Enthusiast

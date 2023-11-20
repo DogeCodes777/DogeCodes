@@ -74,7 +74,7 @@
                         </blockquote>
                         <div class="author">
                             <div class="image">
-                                    "{{ .image }}"
+                                <img class="container-50" src="{{ .image | relURL  }}" alt="" />
                             </div>
                             <p class="credit">- <strong>{{ .name }}</strong> <br /> <span>{{ .title }}
                                     <br />{{ .company }}</span></p>
