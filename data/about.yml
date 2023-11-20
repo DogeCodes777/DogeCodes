@@ -11,6 +11,11 @@ work:
   item1: Dive into interactive online courses designed to demystify complex coding concepts. Doge Codes offers a clear learning path for beginners and advanced developers alike, ensuring everyone can level up their coding skills.
   item2: Benefit from Doge's engaging teaching style and real-world examples. Each course is crafted with a focus on practical applications, giving you the skills you need to succeed in the tech industry.
 
+projects:
+  title: Featured Project - DogeCoin Collector App
+  image: images/doge_banner
+  paragraph: Check out the DogeCoin Collector app, https://play.google.com/store/apps/details?id=com.adventuregame.dogecoincollector&hl=en_US&gl=US&pli=1 a cool Android game developed by Doge Codes. This fun and interactive game lets you embark on a journey to collect Dogecoins while overcoming challenges and unlocking exciting levels. Available on the Google Play Store, the DogeCoin Collector app showcases Doge Codes' passion for creating innovative and entertaining applications.
+
 testimonials:
   title: Student Testimonials
   subtitle: Hear what Doge Codes students have to say
