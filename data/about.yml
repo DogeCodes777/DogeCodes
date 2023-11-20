@@ -22,7 +22,7 @@ testimonials:
   testi_item:
     # testimonial loop
     - content: Doge's courses have been a game-changer for me. The interactive lessons and hands-on projects have made learning coding enjoyable and effective. I highly recommend Doge Codes to anyone looking to advance their coding skills.
-      name: Alex Smith
+      name: Gloria Smith
       image: "images/student_1.png"
       title: Student
 
