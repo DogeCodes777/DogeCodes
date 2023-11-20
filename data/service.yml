@@ -2,30 +2,37 @@ service:
   title: Mastering DevOps Engineering: A Path to 6-Figure Salaries
   offer_item:
     - title: DevOps Fundamentals
+      icon: <replace-with-icon>
       description: |
         Explore the core principles of DevOps and understand how it revolutionizes software development and IT operations. Gain insights into the cultural shift, collaboration, and automation that drive successful DevOps practices.
 
     - title: Development and Customization
+      icon: <replace-with-icon>
       description: |
         Learn to develop and customize solutions using the latest tools. From secure coding practices to automation techniques, discover how to enhance your technology stack and streamline business processes.
 
     - title: Cybersecurity in DevOps
+      icon: <replace-with-icon>
       description: |
         Dive into the world of cybersecurity within the DevOps environment. Identify and mitigate potential risks, implement robust security measures, and ensure the highest level of protection for your services.
 
     - title: Agile Practices and Operations
+      icon: <replace-with-icon>
       description: |
         Master agile practices for optimizing software development. Map clear goals, create step-by-step solutions, and keep projects up-to-date and stable. Streamline operations to elevate your company's technology to new heights.
 
     - title: Advanced Configuration Management
+      icon: <replace-with-icon>
       description: |
         Optimize your development and management tools with the latest configuration management techniques. Learn to utilize tools effectively, provide training and support, and achieve better results in less time.
 
     - title: Cloud Infrastructure Management
+      icon: <replace-with-icon>
       description: |
         Efficiently manage, enhance, and oversee your cloud infrastructure on platforms like AWS, Azure, and GCP. Ensure your systems are resilient, scalable, and can handle increased traffic and demand.
 
     - title: Continuous Integration and Delivery
+      icon: <replace-with-icon>
       description: |
         Implement a DevOps-driven continuous integration and delivery pipeline. Ensure your applications are always up-to-date and running smoothly with frequent and incremental changes to code versions.
 
@@ -35,14 +42,17 @@ service2:
     Doge brings together technology experience, from fast-growing startups to complex enterprise environments, with theoretical understanding and ongoing research. Get off the buzzword-of-the-day treadmill and work to be a better organization. I will help make this possible.
   service_items:
     - title: End-to-End Solutions
+      icon: <replace-with-icon>
       details: |
         At every stage of the software development lifecycle, from ideation to deployment and beyond, it's important to consider the big picture. That's why our team takes a holistic approach to software development, taking into account business drivers, product strategy, enterprise architecture, quality assurance, data science, security, and compliance. By engaging across your value streams, we can create a unified purpose and understanding to deliver end-to-end solutions that meet your needs.
 
     - title: Modern Governance
+      icon: <replace-with-icon>
       details: |
         Most organizations focus on improving software delivery by optimizing for increased developer productivity and operational efficiency. However, this approach often leaves security and compliance behind due to the accelerated pace and ephemeral nature of cloud resources. To overcome this false choice between exposing the organization to risk or slowing down development, modern governance provides continuously audited and verified policies. By implementing modern governance, organizations can go faster and safer without compromising security and compliance.
 
     - title: Platforming
+      icon: <replace-with-icon>
       details: |
         Infrastructure, Platform, Software... as a Service? Cloud is defined by self-service access to resources, but many organizations struggle to develop platforms fit for their purpose. Internal platforms are not a product to deliver but shared resources that need to evolve with the mission. If you build it, they might run. Bring all the interests together and build with the collective for the collective.
 
@@ -52,6 +62,7 @@ service2:
     I don't believe in one size fits all, but I believe there are a few good starting points.
   service2_item:
     - title: Strategy
+      icon: <replace-with-icon>
       list:
         - item: Strategy Development
         - item: Capability Assessment
@@ -60,12 +71,14 @@ service2:
         - item: Mentoring
 
     - title: Workshops
+      icon: <replace-with-icon>
       list:
         - item: Modern Governance
         - item: Platforming Workshop
         - item: Leadership Offsite Workshop
 
     - title: Advisory
+      icon: <replace-with-icon>
       list:
         - item: Assessment
         - item: Mentoring
@@ -78,15 +91,19 @@ service2:
     Every engagement with my customers is unique, and I use a simple process to guide exploring the possible.
   service3_item:
     - title: Introductions
+      icon: <replace-with-icon>
       details: |
         Let's get to know each other and understand what kinds of problems you'd like to solve.
     - title: Assessment
+      icon: <replace-with-icon>
       details: |
         If there is a good fit between your journey and my experiences, I can engage in an extensive assessment. My assessments create alignment and understanding around a set of objectives spanning tactics, strategies, and systemic goals.
     - title: Strategy Deployment
+      icon: <replace-with-icon>
       details: |
         I can work with your teams to deploy tactics and strategies to unleash the potential of your system. I find many organizations have stores of locked-up ROI just waiting to be potentialized by proper inter-team dialogue and value stream-based alignment.
     - title: Product and Platforms
+      icon: <replace-with-icon>
       details: |
         This industry is moving towards from Project to Product and from Service Catalogue to Platforming. I can work with your team to understand how to engage in these new ways of working together.
 
@@ -97,20 +114,26 @@ service3:
     Our 1-on-1 DevOps Consulting service is designed to provide personalized training and guidance for aspiring DevOps engineers. Whether you're new to the field or looking to enhance your skills, our expert consultants will help you navigate the DevOps landscape and prepare you for a successful career.
   service_item:
     - title: Job Market Insights
+      icon: <replace-with-icon>
       details: |
         Gain valuable insights into the current DevOps job market, including in-demand skills, trends, and best practices for job applications and interviews.
     - title: Skill Assessment and Development
+      icon: <replace-with-icon>
       details: |
         Receive a comprehensive assessment of your existing skills and a tailored development plan to bridge any knowledge gaps and enhance your proficiency in key DevOps areas.
     - title: Tools and Technologies
+      icon: <replace-with-icon>
       details: |
         Explore the essential DevOps tools and technologies, learn how to set up and configure popular DevOps platforms, and gain hands-on experience in building CI/CD pipelines.
     - title: Best Practices and Methodologies
+      icon: <replace-with-icon>
       details: |
         Understand industry-standard DevOps practices, such as infrastructure as code, automated testing, monitoring, and deployment strategies, to ensure efficient and reliable software delivery.
     - title: Career Guidance and Job Preparation
+      icon: <replace-with-icon>
       details: |
         Receive personalized career guidance, resume review, interview preparation, and valuable tips for positioning yourself as a strong candidate for DevOps engineering roles.
     - title: Ongoing Support and Mentorship
+      icon: <replace-with-icon>
       details: |
         Benefit from continuous support and mentorship as you progress in your DevOps journey, with regular check-ins, Q&A sessions, and guidance from experienced professionals.
