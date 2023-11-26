@@ -2,21 +2,26 @@ product:
   - title: "Product 1"
     date: "May - 10 - 2023"
     author: "Doge-Codes"
-    purchase: https://buy.stripe.com/bIYbKn4raaIW2Na9AB
+    purchase: "https://buy.stripe.com/bIYbKn4raaIW2Na9AB"
+    buy_button_id: "buy_btn_1OGYngGsN7jBudkSWhOmdl1x"  # Add buy_button_id
+    publishable_key: "pk_live_51MaUYCGsN7jBudkSJDs3G9XmrCWO2ClXCOnCRhnhpL9snUl7wzQebFp8dPiKgWkUooRHhiRkNrjpsCfTW3YW4B7900Bvnhz99z"  # Add publishable_key
     content: |
       Test content 1
 
   - title: "Product 2"
     date: "March - 20 - 2023"
     author: "Doge-Codes"
-    image: "images/student_1.png"
+    purchase: "https://buy.stripe.com/abc123"  # Add purchase link
+    buy_button_id: "buy_btn_xyz123"  # Add buy_button_id
+    publishable_key: "pk_live_xyz123"  # Add publishable_key
     content: |
       Test content 2
 
   - title: "Product 3"
     date: "January - 15 - 2023"
     author: "Doge-Codes"
-    image: "images/student_1.png"
+    purchase: "https://buy.stripe.com/def456"  # Add purchase link
+    buy_button_id: "buy_btn_def456"  # Add buy_button_id
+    publishable_key: "pk_live_def456"  # Add publishable_key
     content: |
       Test content 3
-    

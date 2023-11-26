@@ -10,7 +10,19 @@
             <p>Published on {{ .date }} by {{ .author }}</p>
             <div class="content">
                 {{ .content | markdownify }}
-                {{ .purchase }}
+                
+                <!-- Add Stripe Buy Button integration here -->
+                <script async src="https://js.stripe.com/v3/buy-button.js"></script>
+                <stripe-buy-button
+                    buy-button-id="{{ .buy_button_id }}"
+                    publishable-key="{{ .publishable_key }}"
+                >
+                    <a href="{{ .purchase }}" style="text-decoration: none;">
+                        <button style="background-color: #5cb85c; color: white; padding: 10px 20px; border: none; border-radius: 5px; cursor: pointer;">
+                            Buy Now
+                        </button>
+                    </a>
+                </stripe-buy-button>
             </div>
         </div>
         {{ end }}
