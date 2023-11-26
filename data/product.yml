@@ -2,18 +2,21 @@ product:
   - title: "Product 1"
     date: "May - 10 - 2023"
     author: "Doge-Codes"
+    purchase: https://buy.stripe.com/bIYbKn4raaIW2Na9AB
     content: |
       Test content 1
 
   - title: "Product 2"
     date: "March - 20 - 2023"
     author: "Doge-Codes"
+    image: "images/student_1.png"
     content: |
       Test content 2
 
   - title: "Product 3"
     date: "January - 15 - 2023"
     author: "Doge-Codes"
+    image: "images/student_1.png"
     content: |
       Test content 3
     
