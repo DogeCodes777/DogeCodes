@@ -17,44 +17,34 @@
 <div class="container">
     <div class="background-image"></div>
     <div class="blog-posts">
-        {{ range first 3 $data.product.product }}
+        {{ range $index, $product := $data.product.product }}
         <div class="blog-post">
-            <h2>{{ .title }}</h2>
-            <p>Published on {{ .date }} by {{ .author }}</p>
+            <h2>{{ $product.title }}</h2>
+            <p>Published on {{ $product.date }} by {{ $product.author }}</p>
             <div class="content">
-                {{ .content | markdownify }}
+                {{ $product.content | markdownify }}
                 
-                <!-- Add Stripe Pricing Table integration here -->
-                <script src="https://js.stripe.com/v3/" defer></script>
-                <script>
-                    document.addEventListener("DOMContentLoaded", function() {
-                        var stripe = Stripe("{{ .pricing_table.publishable_key }}");
-                        var elements = stripe.elements();
-                        
-                        var pricingTable = document.createElement('stripe-pricing-table');
-                        pricingTable.setAttribute('pricing-table-id', '{{ .pricing_table.pricing_table_id }}');
-                        pricingTable.setAttribute('publishable-key', '{{ .pricing_table.publishable_key }}');
-                        
-                        // You may need to adjust the container ID based on your HTML structure
-                        var container = document.getElementById('pricing-table-container');
-                        container.appendChild(pricingTable);
-                    });
-                </script>
-
-                <div id="pricing-table-container"></div>
-                
-                <!-- Add Stripe Buy Button integration here -->
-                <script async src="https://js.stripe.com/v3/buy-button.js"></script>
-                <stripe-buy-button
-                    buy-button-id="{{ .buy_button_id }}"
-                    publishable-key="{{ .publishable_key }}"
-                >
-                    <a href="{{ .purchase }}" style="text-decoration: none;">
-                        <button style="background-color: #5cb85c; color: white; padding: 10px 20px; border: none; border-radius: 5px; cursor: pointer;">
-                            Buy Now
-                        </button>
-                    </a>
-                </stripe-buy-button>
+                {{ if eq $index 0 }}
+                    <!-- Add Stripe Pricing Table integration here for the first product -->
+                    <script async src="https://js.stripe.com/v3/pricing-table.js"></script>
+                    <stripe-pricing-table
+                        pricing-table-id="{{ $product.pricing_table.pricing_table_id }}"
+                        publishable-key="{{ $product.pricing_table.publishable_key }}"
+                    ></stripe-pricing-table>
+                {{ else }}
+                    <!-- Add Stripe Buy Button integration here for other products -->
+                    <script async src="https://js.stripe.com/v3/buy-button.js"></script>
+                    <stripe-buy-button
+                        buy-button-id="{{ $product.buy_button_id }}"
+                        publishable-key="{{ $product.publishable_key }}"
+                    >
+                        <a href="{{ $product.purchase }}" style="text-decoration: none;">
+                            <button style="background-color: #5cb85c; color: white; padding: 10px 20px; border: none; border-radius: 5px; cursor: pointer;">
+                                Buy Now
+                            </button>
+                        </a>
+                    </stripe-buy-button>
+                {{ end }}
             </div>
         </div>
         {{ end }}
