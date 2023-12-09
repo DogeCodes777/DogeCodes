@@ -1,50 +1,38 @@
 {{ define "main" }}
 {{ $data := index .Site.Data }}
 
-<!-- Banner -->
-<div id="heading">
-    <div class="container">
-        <div class="row justify-content-center">
-            <div class="col-md-10 col-lg-8 text-center">
-                <h1 class="introduction">{{ .Params.bannerHeading }}</h1>
-                <h2 class="introduction">{{ .Params.bannerDescription }}</h2>
-            </div>
-        </div>
-    </div>
-</div>
-<!-- Banner End -->
-
 <div class="container-fluid">
-    <div class="background-image"></div>
-    <div class="blog-posts">
+    <div class="row">
         {{ range $index, $product := $data.product.product }}
-        <div class="blog-post">
-            <h2>{{ $product.title }}</h2>
-            <p>Published on {{ $product.date }} by {{ $product.author }}</p>
-            <div class="content">
-                {{ $product.content | markdownify }}
-                
-                {{ if eq $index 0 }}
-                    <!-- Add Stripe Pricing Table integration here for the first product -->
-                    <script async src="https://js.stripe.com/v3/pricing-table.js"></script>
-                    <stripe-pricing-table
-                        pricing-table-id="{{ $product.pricing_table.pricing_table_id }}"
-                        publishable-key="{{ $product.pricing_table.publishable_key }}"
-                    ></stripe-pricing-table>
-                {{ else }}
-                    <!-- Add Stripe Buy Button integration here for other products -->
-                    <script async src="https://js.stripe.com/v3/buy-button.js"></script>
-                    <stripe-buy-button
-                        buy-button-id="{{ $product.buy_button_id }}"
-                        publishable-key="{{ $product.publishable_key }}"
-                    >
-                        <a href="{{ $product.purchase }}" style="text-decoration: none;">
-                            <button style="background-color: #5cb85c; color: white; padding: 10px 20px; border: none; border-radius: 5px; cursor: pointer;">
-                                Buy Now
-                            </button>
-                        </a>
-                    </stripe-buy-button>
-                {{ end }}
+        <div class="col-md-12">
+            <div class="blog-post">
+                <h2>{{ $product.title }}</h2>
+                <p>Published on {{ $product.date }} by {{ $product.author }}</p>
+                <div class="content">
+                    {{ $product.content | markdownify }}
+
+                    {{ if eq $index 0 }}
+                        <!-- Add Stripe Pricing Table integration here for the first product -->
+                        <script async src="https://js.stripe.com/v3/pricing-table.js"></script>
+                        <stripe-pricing-table
+                            pricing-table-id="{{ $product.pricing_table.pricing_table_id }}"
+                            publishable-key="{{ $product.pricing_table.publishable_key }}"
+                        ></stripe-pricing-table>
+                    {{ else }}
+                        <!-- Add Stripe Buy Button integration here for other products -->
+                        <script async src="https://js.stripe.com/v3/buy-button.js"></script>
+                        <stripe-buy-button
+                            buy-button-id="{{ $product.buy_button_id }}"
+                            publishable-key="{{ $product.publishable_key }}"
+                        >
+                            <a href="{{ $product.purchase }}" style="text-decoration: none;">
+                                <button style="background-color: #5cb85c; color: white; padding: 10px 20px; border: none; border-radius: 5px; cursor: pointer;">
+                                    Buy Now
+                                </button>
+                            </a>
+                        </stripe-buy-button>
+                    {{ end }}
+                </div>
             </div>
         </div>
         {{ end }}
