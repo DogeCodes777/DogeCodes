@@ -6,7 +6,7 @@ product:
       pricing_table_id: "prctbl_1OHKhmGsN7jBudkSNYD9u7mX"
       publishable_key: "pk_live_51MaUYCGsN7jBudkSJDs3G9XmrCWO2ClXCOnCRhnhpL9snUl7wzQebFp8dPiKgWkUooRHhiRkNrjpsCfTW3YW4B7900Bvnhz99z"
     content: |
-      Test content for the product with Pricing Table
+      
 
   - title: ""
     date: "January - 15 - 2024"
@@ -15,7 +15,7 @@ product:
       pricing_table_id: "prctbl_1OYOKiGsN7jBudkSpOCRM8ft"
       publishable_key: "pk_live_51MaUYCGsN7jBudkSJDs3G9XmrCWO2ClXCOnCRhnhpL9snUl7wzQebFp8dPiKgWkUooRHhiRkNrjpsCfTW3YW4B7900Bvnhz99z"
     content: |
-      Test content for Product 2
+      
 
   - title: ""
     date: "January - 15 - 2024"
@@ -24,7 +24,7 @@ product:
       pricing_table_id: "prctbl_1OXucHGsN7jBudkSlWs0EF3l"
       publishable_key: "pk_live_51MaUYCGsN7jBudkSJDs3G9XmrCWO2ClXCOnCRhnhpL9snUl7wzQebFp8dPiKgWkUooRHhiRkNrjpsCfTW3YW4B7900Bvnhz99z"
     content: |
-      Test content for Product 3
+      
       
   - title: ""
     date: "January - 15 - 2024"
@@ -33,7 +33,7 @@ product:
       pricing_table_id: "prctbl_1OYir7GsN7jBudkSWUeAp0eL"
       publishable_key: "pk_live_51MaUYCGsN7jBudkSJDs3G9XmrCWO2ClXCOnCRhnhpL9snUl7wzQebFp8dPiKgWkUooRHhiRkNrjpsCfTW3YW4B7900Bvnhz99z"
     content: |
-      Test content for Product 4
+      
 
   - title: ""
     date: "January - 15 - 2024"
@@ -51,7 +51,7 @@ product:
       pricing_table_id: "prctbl_1OYjXnGsN7jBudkS7VSw9grB"
       publishable_key: "pk_live_51MaUYCGsN7jBudkSJDs3G9XmrCWO2ClXCOnCRhnhpL9snUl7wzQebFp8dPiKgWkUooRHhiRkNrjpsCfTW3YW4B7900Bvnhz99z"
     content: |
-      Test content for Product 6
+      
 
   - title: ""
     date: "January - 15 - 2024"
@@ -60,7 +60,7 @@ product:
       pricing_table_id: "prctbl_1OYjuUGsN7jBudkS7xghQRhy"
       publishable_key: "pk_live_51MaUYCGsN7jBudkSJDs3G9XmrCWO2ClXCOnCRhnhpL9snUl7wzQebFp8dPiKgWkUooRHhiRkNrjpsCfTW3YW4B7900Bvnhz99z"
     content: |
-      Test content for Product 7
+      
 
   - title: ""
     date: "January - 15 - 2024"
@@ -69,7 +69,7 @@ product:
       pricing_table_id: "prctbl_1OYk1OGsN7jBudkSJcMWE9Ti"
       publishable_key: "pk_live_51MaUYCGsN7jBudkSJDs3G9XmrCWO2ClXCOnCRhnhpL9snUl7wzQebFp8dPiKgWkUooRHhiRkNrjpsCfTW3YW4B7900Bvnhz99z"
     content: |
-      Test content for Product 8
+      
 
   - title: ""
     date: "January - 15 - 2024"
@@ -78,7 +78,7 @@ product:
       pricing_table_id: "prctbl_1OYk9lGsN7jBudkSVQoc1bnQ"
       publishable_key: "pk_live_51MaUYCGsN7jBudkSJDs3G9XmrCWO2ClXCOnCRhnhpL9snUl7wzQebFp8dPiKgWkUooRHhiRkNrjpsCfTW3YW4B7900Bvnhz99z"
     content: |
-      Test content for Product 9
+
 
   - title: ""
     date: "January - 15 - 2024"
@@ -87,7 +87,7 @@ product:
       pricing_table_id: "prctbl_1OYkbKGsN7jBudkSWCaOZ0em"
       publishable_key: "pk_live_51MaUYCGsN7jBudkSJDs3G9XmrCWO2ClXCOnCRhnhpL9snUl7wzQebFp8dPiKgWkUooRHhiRkNrjpsCfTW3YW4B7900Bvnhz99z"
     content: |
-      Test content for Product 10
+      
 
   - title: ""
     date: "January - 15 - 2024"
@@ -96,7 +96,7 @@ product:
       pricing_table_id: "prctbl_1OYlPMGsN7jBudkSm2H6CmN3"
       publishable_key: "pk_live_51MaUYCGsN7jBudkSJDs3G9XmrCWO2ClXCOnCRhnhpL9snUl7wzQebFp8dPiKgWkUooRHhiRkNrjpsCfTW3YW4B7900Bvnhz99z"
     content: |
-      Test content for Product 11
+      
 
   - title: ""
     date: "January - 15 - 2024"
@@ -105,7 +105,7 @@ product:
       pricing_table_id: "prctbl_1OYlU7GsN7jBudkSvH275HX8"
       publishable_key: "pk_live_51MaUYCGsN7jBudkSJDs3G9XmrCWO2ClXCOnCRhnhpL9snUl7wzQebFp8dPiKgWkUooRHhiRkNrjpsCfTW3YW4B7900Bvnhz99z"
     content: |
-      Test content for Product 12
+      
 
   - title: ""
     date: "January - 15 - 2024"
@@ -114,4 +114,4 @@ product:
       pricing_table_id: "prctbl_1OYlZHGsN7jBudkSJZRhXBc0"
       publishable_key: "pk_live_51MaUYCGsN7jBudkSJDs3G9XmrCWO2ClXCOnCRhnhpL9snUl7wzQebFp8dPiKgWkUooRHhiRkNrjpsCfTW3YW4B7900Bvnhz99z"
     content: |
-      Test content for Product 13
+      
