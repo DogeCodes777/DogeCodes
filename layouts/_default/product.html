@@ -1,6 +1,9 @@
 {{ define "main" }}
 {{ $data := index .Site.Data }}
 
+<!-- Load Stripe Pricing Table Script -->
+<script async src="https://js.stripe.com/v3/pricing-table.js"></script>
+
 <!-- Banner -->
 <div id="heading">
     <div class="container">
@@ -16,7 +19,7 @@
 
 <div class="container-fluid">
     <div class="row">
-        {{ range $index, $product := $data.product.product }}
+        {{ range $product := $data.product.product }}
         <div class="col-md-12">
             <div class="blog-post">
                 <h2>{{ $product.title }}</h2>
@@ -24,27 +27,11 @@
                 <div class="content">
                     {{ $product.content | markdownify }}
 
-                    {{ if eq $index 0 }}
-                        <!-- Add Stripe Pricing Table integration here for the first product -->
-                        <script async src="https://js.stripe.com/v3/pricing-table.js"></script>
-                        <stripe-pricing-table
-                            pricing-table-id="{{ $product.pricing_table.pricing_table_id }}"
-                            publishable-key="{{ $product.pricing_table.publishable_key }}"
-                        ></stripe-pricing-table>
-                    {{ else }}
-                        <!-- Add Stripe Buy Button integration here for other products -->
-                        <script async src="https://js.stripe.com/v3/buy-button.js"></script>
-                        <stripe-buy-button
-                            buy-button-id="{{ $product.buy_button_id }}"
-                            publishable-key="{{ $product.pricing_table.publishable_key }}"
-                        >
-                            <a href="{{ $product.purchase }}" style="text-decoration: none;">
-                                <button style="background-color: #5cb85c; color: white; padding: 10px 20px; border: none; border-radius: 5px; cursor: pointer;">
-                                    Buy Now
-                                </button>
-                            </a>
-                        </stripe-buy-button>
-                    {{ end }}
+                    <!-- Stripe Pricing Table for each product -->
+                    <stripe-pricing-table
+                        pricing-table-id="{{ $product.pricing_table.pricing_table_id }}"
+                        publishable-key="{{ $product.pricing_table.publishable_key }}"
+                    ></stripe-pricing-table>
                 </div>
             </div>
         </div>
