@@ -20,7 +20,6 @@ product:
   - title: "Product 3"
     date: "January - 15 - 2023"
     author: "Doge-Codes"
-    buy_button_id: "buy_btn_def456"
     pricing_table:
       pricing_table_id: "prctbl_1OXucHGsN7jBudkSlWs0EF3l"
       publishable_key: "pk_live_51MaUYCGsN7jBudkSJDs3G9XmrCWO2ClXCOnCRhnhpL9snUl7wzQebFp8dPiKgWkUooRHhiRkNrjpsCfTW3YW4B7900Bvnhz99z"
