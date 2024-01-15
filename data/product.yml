@@ -33,5 +33,13 @@ product:
       pricing_table_id: "prctbl_1OYir7GsN7jBudkSWUeAp0eL"
       publishable_key: "pk_live_51MaUYCGsN7jBudkSJDs3G9XmrCWO2ClXCOnCRhnhpL9snUl7wzQebFp8dPiKgWkUooRHhiRkNrjpsCfTW3YW4B7900Bvnhz99z"
     content: |
-      Test content for Product 3
+      Test content for Product 4
 
+  - title: "Product 5"
+    date: "January - 15 - 2023"
+    author: "Doge-Codes"
+    pricing_table:
+      pricing_table_id: "prctbl_1OYiq0GsN7jBudkSXADcxzES"
+      publishable_key: "pk_live_51MaUYCGsN7jBudkSJDs3G9XmrCWO2ClXCOnCRhnhpL9snUl7wzQebFp8dPiKgWkUooRHhiRkNrjpsCfTW3YW4B7900Bvnhz99z"
+    content: |
+      Test content for Product 5
