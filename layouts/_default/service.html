@@ -14,11 +14,16 @@
 </div>
 <!-- Banner End -->
 
-<script async src="https://js.stripe.com/v3/pricing-table.js"></script>
-<stripe-pricing-table pricing-table-id="prctbl_1OHf4RGsN7jBudkSGtLCg3tP"
-publishable-key="pk_live_51MaUYCGsN7jBudkSJDs3G9XmrCWO2ClXCOnCRhnhpL9snUl7wzQebFp8dPiKgWkUooRHhiRkNrjpsCfTW3YW4B7900Bvnhz99z">
-</stripe-pricing-table>
-
+<div class="container">
+    <div class="row justify-content-center">
+        <div class="col-md-10 col-lg-8 text-center">
+            <script async src="https://js.stripe.com/v3/pricing-table.js"></script>
+            <stripe-pricing-table pricing-table-id="prctbl_1OHf4RGsN7jBudkSGtLCg3tP"
+            publishable-key="pk_live_51MaUYCGsN7jBudkSJDs3G9XmrCWO2ClXCOnCRhnhpL9snUl7wzQebFp8dPiKgWkUooRHhiRkNrjpsCfTW3YW4B7900Bvnhz99z">
+            </stripe-pricing-table>
+        </div>
+    </div>
+</div>
 <!-- service section-->
 {{ with $data.service.service }}
 <section class="wrapper">
