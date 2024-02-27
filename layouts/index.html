@@ -50,6 +50,40 @@
 </div>
 <!-- Banner End -->
 
+<!-- Technologies start -->
+{{ with $data.homepage.technologies }}
+<section class="Technologies pb-5">
+    <div class="inner">
+        <header class="special mt-5 pt-4">
+            <div class="flex border-2 border-white flex-col md:flex-row items-center">
+                <div class="flex flex-col space-y-6">
+                    <h2 class="text-3xl md:text-4xl lg:text-5xl text-center md:ml-[-20rem]">{{ .title | markdownify }}
+                    </h2>
+                    <h3 class="text-center md:text-left text-lg font-medium text-black">
+                        {{ .subtitle1st | markdownify }}<br>
+                        {{ .subtitle2nd | markdownify }}
+                    </h3>
+                </div>
+                <img src="images/line_break.png" alt="">
+            </div>
+        </header>
+
+        <div class="row">
+            {{ range .technology_item }}
+            <div class="col-md-3">
+                <header class="technology">
+                    <div class="image">
+                        <img class="image-item" src="{{ .image | relURL }}" alt="" />
+                    </div>
+                    <h3>{{ .title | markdownify }}</h3>
+                </header>
+            </div>
+            {{ end }}
+        </div>
+    </div>
+</section>
+<!-- Technologies end -->
+
 <iframe width="560" height="315" src="https://www.youtube.com/embed/s_DYx3qo63A?si=uoooiU7e1BBZjX7N" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
 <!-- skill start -->
